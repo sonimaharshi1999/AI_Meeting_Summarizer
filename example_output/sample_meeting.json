@@ -1,0 +1,65 @@
+{
+  "title": "Sprint Planning - API Migration & Dashboard",
+  "date": "September 3, 2026",
+  "participants": [
+    "Sarah",
+    "Mike",
+    "Lisa",
+    "Alex"
+  ],
+  "summary": [
+    "API v2 migration is 70% complete on user management endpoints; auth endpoints done.",
+    "Rate limiting middleware needs redesign for new architecture — design doc due Thursday.",
+    "Dashboard redesign mockups approved; analytics overview targeting next Monday ship.",
+    "Search performance issues reported — investigation and profiling underway."
+  ],
+  "key_decisions": [
+    "Prioritize rate limiting redesign as a blocker for API migration.",
+    "Bump analytics API endpoint priority to unblock dashboard work.",
+    "Investigate search performance as a high-priority item."
+  ],
+  "action_items": [
+    {
+      "description": "Draft rate limiting design doc and share in engineering channel",
+      "assignee": "Mike",
+      "due_date": "Thursday morning",
+      "priority": "high"
+    },
+    {
+      "description": "Review Mike's rate limiting design doc",
+      "assignee": "Lisa",
+      "due_date": "After Mike shares",
+      "priority": "high"
+    },
+    {
+      "description": "Complete user management API endpoints",
+      "assignee": "Mike",
+      "due_date": "End of this week",
+      "priority": "medium"
+    },
+    {
+      "description": "Deliver analytics API endpoint",
+      "assignee": "Mike",
+      "due_date": "Friday",
+      "priority": "high"
+    },
+    {
+      "description": "Implement analytics overview component",
+      "assignee": "Lisa",
+      "due_date": "Next Monday",
+      "priority": "medium"
+    },
+    {
+      "description": "Profile search endpoints and produce performance report",
+      "assignee": "Alex",
+      "due_date": "Wednesday",
+      "priority": "high"
+    },
+    {
+      "description": "Set up Grafana performance dashboards for search service",
+      "assignee": "Alex",
+      "due_date": null,
+      "priority": "medium"
+    }
+  ]
+}
